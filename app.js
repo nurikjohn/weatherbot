@@ -102,7 +102,7 @@ exports.currentWeather_menu = async ({reply, i18n, message, session}) => {
         return reply(i18n.t("begin"), keyboards.main_keyboard(i18n));
     } else {
         const current = await currentByCityName(transliterate(message.text), session.user.units);
-        console.log(current)
+
         if (`${current.cod}` === '200') {
             const date = new Date()
             const weekday = `${date.getDay()}`;

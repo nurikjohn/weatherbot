@@ -31,7 +31,7 @@ const TOKEN = process.env.TOKEN;
 const bot = new Telegraf(TOKEN);
 const DYNO_URL = process.env.DYNO_URL
 
-wakeUpDyno(DYNO_URL)
+// wakeUpDyno(DYNO_URL)
 
 // Middlewares
 bot.use(Telegraf.session());
@@ -64,8 +64,8 @@ bot.launch();
 
 // bot.telegram.setWebhook(DYNO_URL);
 
-const expressApp = express();
-expressApp.get("/", (req, res) => res.send("Hello World!"));
+// const expressApp = express();
+// expressApp.get("/", (req, res) => res.send("Hello World!"));
 // Set the bot API endpoint
 // expressApp.use(bot.webhookCallback("/bot"));
 // expressApp.listen(process.env.PORT || 3000, () => {

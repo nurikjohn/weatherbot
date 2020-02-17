@@ -1,0 +1,165 @@
+# /start
+chooseLanguage: Пожалуйста, выберите язык.
+
+english: 🇺🇸 English
+russian: 🇷🇺 Русский
+uzbek: 🇺🇿 O'zbek
+
+# /main
+begin: С чего начнем?
+
+currentWeather: 🌈 Текущая погода
+forecastWeather: ⚡ Прогноз погоды
+settings: ⚙️ Настройки
+
+# /settings_menu
+chooseSetting: Перейдите в нужный раздел настроек!
+
+changeLanguage: 🌎 Сменить язык
+back: ⬅️ Назад
+
+# /currentWeather_menu
+chooseCity: Выберите город из текущих запросов или отправьте новый.
+
+location: 📍 Локация
+
+# /currentWeather_answer
+temperature: 🌡 Температура
+cloud: ☁ Облако
+humidity: 💦 Влажность
+wind: 💨 Ветер
+metric: °C
+imperial: °F
+speed: м/с
+
+city not found: Город не найден
+
+# /forecastWeather_answer
+chooseWeekday: >-
+  Выберите день недели.
+
+  🌆 Город: ${city}
+
+# Weekdays
+1: Понедельник
+2: Вторник
+3: Четверг
+4: Среда
+5: Пятница
+6: Суббота
+0: Воскресенье
+
+#  turnOnNotification
+turnOnNotification: Хотите включить уведомления для ${city}?
+
+yes: Да ✅
+no: Нет ❌
+
+#  notificationTurnedOn
+notificationTurnedOn: >-
+  Уведомление для ${city} включено.
+
+  Вы можете управлять им в меню ⚙️ Настройки.
+
+# Current Weather Template
+currentTemplate: >-
+  🌆 ${name}
+
+  ${weekday}, ${hour}:00
+
+  ${description}
+
+
+  ${i18n.t('temperature')}: ${temperature}${units}
+
+  ${i18n.t('cloud')}: ${cloud}%
+
+  ${i18n.t('humidity')}: ${humidity}%
+
+  ${i18n.t('wind')}: ${wind}${i18n.t('speed')}
+
+# Forecast Weather Template
+forecastTemplate: >-
+  🔹 ${hour}:00 ${date}
+
+  ${description}
+
+  ${i18n.t('temperature')}: ${temperature}${units}
+
+  ${i18n.t('cloud')}: ${cloud}%
+
+  ${i18n.t('humidity')}: ${humidity}%
+
+  ${i18n.t('wind')}: ${wind}${i18n.t('speed')}
+
+# Icons
+01d: ☀
+02d: 🌤
+03d: 🌥
+04d: ☁
+09d: 🌧
+10d: 🌦
+11d: ⛈
+13d: ❄
+50d: 🌫
+
+# Weather descriptions
+clear sky: Чистое небо ☀
+
+few clouds: Мало облаков 🌤
+scattered clouds: Рассеянные облака 🌥
+broken clouds: Облачность ☁
+overcast clouds: Пасмурно облака ☁
+
+mist: Дымка 🌫
+smoke: Дым 🌫
+haze: Мгла 🌫
+fog: Туман 🌫
+sand: Песок 🌫
+dust: Пыли 🌫
+volcanic ash: Вулканический пепел 🌫
+squalls: Шквалы 🌫
+tornado: Торнадо 🌫
+
+light snow: Легкий снег ❄
+snow: Снег ❄
+heavy snow: Снегопад ❄
+sleet: Мокрый снег ❄
+light shower sleet: Легкий душевой халат ❄
+shower sleet: Душевая кабина ❄
+light rain and snow: Небольшой дождь и снег ❄
+rain and snow: 	Дождь и снег ❄
+light shower snow: Легкий дождь снег ❄
+shower snow: Душ снег ❄
+heavy shower snow: Сильный снегопад ❄
+
+light rain: Легкий дождь 🌦
+moderate rain: Умеренный дождь 🌦
+heavy intensity rain: Сильный дождь 🌦
+very heavy rain: Очень сильный дождь 🌦
+extreme rain: Экстремальный дождь 🌦
+freezing rain: Холодный дождь ❄
+light intensity shower rain: Легкий дождь 🌦
+shower rain: Дождь 🌦
+heavy intensity shower rain: Сильный дождь 🌦
+ragged shower: Рваный душ 🌦
+light intensity drizzle : моросящий свет 🌧
+drizzle: Изморось 🌧
+heavy intensity drizzle: Сильный дождь 🌧
+light intensity drizzle rain: Сила света моросящий дождь 🌧
+drizzle rain: Моросящий дождь 🌧
+heavy intensity drizzle rain: Сильный дождь 🌧
+shower rain and drizzle: Дождь и дождь 🌧
+heavy shower rain and drizzle: Сильный дождь 🌧
+shower drizzle: Дождь изморось 🌧
+
+thunderstorm with light rain: Гроза с небольшим дождем ⛈
+thunderstorm with rain: Гроза с дождем ⛈
+thunderstorm with heavy rain: Гроза с проливным дождем ⛈
+light thunderstorm: Легкая гроза ⛈
+thunderstorm: Гроза ⛈
+heavy thunderstorm: Сильная гроза ⛈
+ragged thunderstorm: Рваная гроза ⛈
+thunderstorm with light drizzle: Гроза с легкой моросью ⛈
+thunderstorm with drizzle: Гроза с моросящим дождем ⛈
+thunderstorm with heavy drizzle: Гроза с сильным моросящим дождем ⛈

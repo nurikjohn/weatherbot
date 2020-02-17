@@ -1,0 +1,166 @@
+# /start
+chooseLanguage: Iltimos, tilni tanlang.
+
+english: 🇺🇸 English
+russian: 🇷🇺 Русский
+uzbek: 🇺🇿 O'zbek
+
+# /main
+begin: Nimadan boshlaymiz?
+
+currentWeather: 🌈 Hozirgi ob-havo
+forecastWeather: ⚡ Ob-havo bashorati
+settings: ⚙️ Sozlamalar
+
+# /settings_menu
+chooseSetting: Istalgan sozlamalar bo'limiga o'ting!
+
+changeLanguage: 🌎 Tilni o'zgartirish
+back: ⬅️ Ortga
+
+# /currentWeather_menu
+chooseCity: Joriy so'rovlardan shaharni tanlang yoki yangisini yuboring.
+
+location: 📍 Manzil
+
+# /currentWeather_answer
+temperature: 🌡 Harorat
+cloud: ☁ Bulut
+humidity: 💦 Namlik
+wind: 💨 Shamol
+metric: °C
+imperial: °F
+speed: m/s
+
+city not found: Shahar topilmadi
+
+# /forecastWeather_answer
+chooseWeekday: >-
+  Hafta kunini tanlang.
+
+  🌆 Shahar: ${city}
+
+# Weekdays
+1: Dushanba
+2: Seshanba
+3: Payshanba
+4: Chorshanba
+5: Juma
+6: Shanba
+0: Yakshanba
+
+#  turnOnNotification
+turnOnNotification: ${city} uchun bildirishnomalarni yoqishni hohlaysizmi?
+
+yes: Ha ✅
+no: Yo'q ❌
+
+#  notificationTurnedOn
+notificationTurnedOn: >-
+  ${city} uchun bildirishnomalar yoqildi.
+
+  Siz uni ⚙️ Sozlamalar menyusida boshqarishingiz mumkin
+
+# Current Weather Template
+currentTemplate: >-
+  🌆 ${name}
+
+  ${weekday}, ${hour}:00
+
+  ${description}
+
+
+  ${i18n.t('temperature')}: ${temperature}${units}
+
+  ${i18n.t('cloud')}: ${cloud}%
+
+  ${i18n.t('humidity')}: ${humidity}%
+
+  ${i18n.t('wind')}: ${wind}${i18n.t('speed')}
+
+# Forecast Weather Template
+forecastTemplate: >-
+  🔹 ${hour}:00 ${date}
+
+  ${description}
+
+  ${i18n.t('temperature')}: ${temperature}${units}
+
+  ${i18n.t('cloud')}: ${cloud}%
+
+  ${i18n.t('humidity')}: ${humidity}%
+
+  ${i18n.t('wind')}: ${wind}${i18n.t('speed')}
+
+# Icons
+01d: ☀
+02d: 🌤
+03d: 🌥
+04d: ☁
+09d: 🌧
+10d: 🌦
+11d: ⛈
+13d: ❄
+50d: 🌫
+
+
+# Weather descriptions
+clear sky: Toza osmon ☀
+
+few clouds: Kam bulutli 🌤
+scattered clouds: Tarqalgan bulutlar 🌥
+broken clouds: Buzilgan bulutlar ☁
+overcast clouds: Bulutllar ☁
+
+mist: Tuman 🌫
+Smoke: Tutun 🌫
+Haze: Tuman 🌫
+fog: Tuman 🌫
+sand: Qum 🌫
+dust: Chang 🌫
+volcanic ash: Vulkanik kul 🌫
+squalls: Qovoqchalar 🌫
+tornado: Tornado 🌫
+
+light snow: Yengil qor ❄
+snow: Qor ❄
+heavy snow: Qattiq qor ❄
+sleet: Shilimshiq ❄
+light shower sleet: Qattiq qor ❄
+shower sleet: Dushli shlak ❄
+light rain and snow: Yomg'ir va qor ❄
+rain and snow:    Yomg'ir va qor ❄
+light shower snow: Yengil qor ❄
+shower snow: Qattiq qor ❄
+heavy shower snow: Kuchli qor ❄
+
+light rain: Yengil yomg'ir 🌦
+moderate rain: O'rtacha yomg'ir 🌦
+heavy intensity rain: Kuchli intensiv yomg'ir 🌦
+very heavy rain: Juda kuchli yomg'ir 🌦
+extreme rain: Qattiq yomg'ir 🌦
+freezing rain: Sovuq yomg'ir ❄
+light intensity shower rain: Yengil zichlikdagi yomg'iri 🌦
+shower rain: Yomg'ir 🌦
+heavy intensity shower rain: Kuchli intensiv yomg'iri 🌦
+ragged shower: Yomg'irli dush 🌦
+light intensity drizzle: Intensiv yomg'ir 🌧
+drizzle: Yomg'ir 🌧
+heavy intensity drizzle: Kuchli intensiv bo'ron 🌧
+light intensity drizzle rain: Yengil zichlikdagi yomg'ir 🌧
+drizzle rain: Yomg'ir 🌧
+heavy intensity drizzle rain: Kuchli intensiv yomg'ir 🌧
+shower rain and drizzle: Dush yomg'iri 🌧
+heavy shower rain and drizzle: Kuchli yomg'ir 🌧
+shower drizzle: Dush yomg'iri 🌧
+
+thunderstorm with light rain: Momaqaldiroq bilan yengil yomg'ir ⛈
+thunderstorm with rain: Yomg'ir bilan momaqaldiroq ⛈
+thunderstorm with heavy rain: Kuchli yomg'ir bilan momaqaldiroq ⛈
+light thunderstorm: Yengil momaqaldiroq ⛈
+thunderstorm: Momaqaldiroq ⛈
+heavy thunderstorm: Kuchli momaqaldiroq ⛈
+ragged thunderstorm: Yomg'irli momaqaldiroq ⛈
+thunderstorm with light drizzle: Momaqaldiroq bilan yog'ingarchilik ⛈
+thunderstorm with drizzle: Momaqaldiroq bilan yog'ingarchilik ⛈
+thunderstorm with heavy drizzle: Kuchli momaqaldiroq bilan momaqaldiroq ⛈

@@ -1,0 +1,166 @@
+# /start
+chooseLanguage: Please, choose the language.
+
+english: 🇺🇸 English
+russian: 🇷🇺 Русский
+uzbek: 🇺🇿 O'zbek
+
+# /main
+begin: Where do we start?
+
+currentWeather: 🌈 Current weather
+forecastWeather: ⚡ Weather forecast
+settings: ⚙️ Settings
+
+# /settings_menu
+chooseSetting: Go to the desired settings section!
+
+changeLanguage: 🌎 Change language
+back: ⬅️ Back
+
+# /currentWeather_menu
+chooseCity: Select a city from current requests or send a new one.
+
+location: 📍 Location
+
+# /currentWeather_answer
+temperature: 🌡 Temperature
+cloud: ☁ Cloud
+humidity: 💦 Humidity
+wind: 💨 Wind
+metric: °C
+imperial: °F
+speed: m/s
+
+city not found: City not found
+
+# /forecastWeather_answer
+chooseWeekday: >-
+  Select the weekday.
+
+  🌆 City: ${city}
+
+# WeekDays
+1: Monday
+2: Tuesday
+3: Thursday
+4: Wednesday
+5: Friday
+6: Saturday
+0: Sunday
+
+#  turnOnNotification
+turnOnNotification: Want to enable notifications for ${city}?
+
+yes: Yes ✅
+no: No ❌
+
+#  notificationTurnedOn
+notificationTurnedOn: >-
+  Notification for ${city} is turned on.
+
+  You can control it on ⚙️ Settings menu.
+
+# Current Weather Template
+currentTemplate: >-
+  🌆 ${name}
+
+  ${weekday}, ${hour}:00
+
+  ${description}
+
+
+  ${i18n.t('temperature')}: ${temperature}${units}
+
+  ${i18n.t('cloud')}: ${cloud}%
+
+  ${i18n.t('humidity')}: ${humidity}%
+
+  ${i18n.t('wind')}: ${wind}${i18n.t('speed')}
+
+# Forecast Weather Template
+forecastTemplate: >-
+  🔹 ${hour}:00 ${date}
+
+  ${description}
+
+  ${i18n.t('temperature')}: ${temperature}${units}
+
+  ${i18n.t('cloud')}: ${cloud}%
+
+  ${i18n.t('humidity')}: ${humidity}%
+
+  ${i18n.t('wind')}: ${wind}${i18n.t('speed')}
+
+# Icons
+01d: ☀
+02d: 🌤
+03d: 🌥
+04d: ☁
+09d: 🌧
+10d: 🌦
+11d: ⛈
+13d: ❄
+50d: 🌫
+
+# Weather descriptions
+clear sky: Clear sky ☀
+
+few clouds: Few clouds 🌤
+scattered clouds: Scattered clouds 🌥
+broken clouds: Broken clouds ☁
+overcast clouds: Overcast clouds ☁
+
+mist: Mist 🌫
+Smoke: Smoke 🌫
+Haze: Haze 🌫
+fog: Fog 🌫
+sand: Sand 🌫
+dust: Dust 🌫
+volcanic ash: Volcanic ash 🌫
+squalls: Squalls 🌫
+tornado: Tornado 🌫
+
+light snow: Light snow ❄
+snow: Snow ❄
+heavy snow: Heavy snow ❄
+sleet: Sleet ❄
+light shower sleet: Light shower sleet ❄
+shower sleet: Shower sleet ❄
+light rain and snow: Light rain and snow ❄
+rain and snow: 	Rain and snow ❄
+light shower snow: Light shower snow ❄
+shower snow: Shower snow ❄
+heavy shower snow: Heavy shower snow ❄
+
+light rain: Light rain 🌦
+moderate rain: Moderate rain 🌦
+heavy intensity rain: Heavy intensity rain 🌦
+very heavy rain: Very heavy rain 🌦
+extreme rain: Extreme rain 🌦
+freezing rain: Freezing rain ❄
+light intensity shower rain: Light intensity shower rain 🌦
+shower rain: Shower rain 🌦
+heavy intensity shower rain: Heavy intensity shower rain 🌦
+ragged shower rain: Ragged shower rain 🌦
+
+light intensity drizzle : Light intensity drizzle 🌧
+drizzle: Drizzle 🌧
+heavy intensity drizzle: Heavy intensity drizzle 🌧
+light intensity drizzle rain: Light intensity drizzle rain 🌧
+drizzle rain: Drizzle rain 🌧
+heavy intensity drizzle rain: Heavy intensity drizzle rain 🌧
+shower rain and drizzle: Shower rain and drizzle 🌧
+heavy shower rain and drizzle: Heavy shower rain and drizzle 🌧
+shower drizzle: Shower drizzle 🌧
+
+thunderstorm with light rain: Thunderstorm with light rain ⛈
+thunderstorm with rain: Thunderstorm with rain ⛈
+thunderstorm with heavy rain: Thunderstorm with heavy rain ⛈
+light thunderstorm: Light thunderstorm ⛈
+thunderstorm: Thunderstorm ⛈
+heavy thunderstorm: Heavy thunderstorm ⛈
+ragged thunderstorm: Ragged thunderstorm ⛈
+thunderstorm with light drizzle: Thunderstorm with light drizzle ⛈
+thunderstorm with drizzle: Thunderstorm with drizzle ⛈
+thunderstorm with heavy drizzle: Thunderstorm with heavy drizzle ⛈

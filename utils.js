@@ -93,7 +93,7 @@ exports.listToMatrix = (list, elementsPerSubArray) => {
 
 const fetch = require("node-fetch");
 
-exeports.wakeUpDyno = (url, interval = 1, callback) => {
+exports.wakeUpDyno = (url, interval = 1, callback) => {
     const milliseconds = interval * 60000;
     setTimeout(() => {
 

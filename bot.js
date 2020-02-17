@@ -6,7 +6,7 @@ const express = require("express");
 const path = require("path");
 const I18n = require("telegraf-i18n/lib/i18n");
 const {getUser} = require("./user/userController");
-const utils = require("./utils.js");
+const {wakeUpDyno} = require("./utils");
 
 // Configs
 dotenv.config();
@@ -31,7 +31,7 @@ const TOKEN = process.env.TOKEN;
 const bot = new Telegraf(TOKEN);
 const DYNO_URL = process.env.DYNO_URL
 
-utils.wakeUpDyno(DYNO_URL)
+wakeUpDyno(DYNO_URL)
 
 // Middlewares
 bot.use(Telegraf.session());

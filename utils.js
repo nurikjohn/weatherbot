@@ -90,7 +90,7 @@ exports.listToMatrix = (list, elementsPerSubArray) => {
     return matrix;
 };
 
-exports.wakeUpDyno = (url, interval = 1, callback) => {
+const wakeUp = (url, interval = 1, callback) => {
     const milliseconds = interval * 60000;
     setTimeout(() => {
 
@@ -120,4 +120,8 @@ exports.wakeUpDyno = (url, interval = 1, callback) => {
 
     }, milliseconds);
 };
+
+exports.wakeUpDyno = (url, interval, callback) => {
+    wakeUp(url, interval, callback);
+}
 

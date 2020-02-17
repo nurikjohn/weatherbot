@@ -58,16 +58,16 @@ bot.on("message", async ctx => {
 })
 
 // Launch the bot
-// bot.launch();
+bot.launch();
 
 // Set telegram webhook
 
-bot.telegram.setWebhook(DYNO_URL);
+// bot.telegram.setWebhook(DYNO_URL);
 
 const expressApp = express();
 expressApp.get("/", (req, res) => res.send("Hello World!"));
 // Set the bot API endpoint
-expressApp.use(bot.webhookCallback("/bot"));
-expressApp.listen(process.env.PORT || 3000, () => {
-  console.log(`Example app listening on port ${process.env.PORT || 3000}!`);
-});
+// expressApp.use(bot.webhookCallback("/bot"));
+// expressApp.listen(process.env.PORT || 3000, () => {
+//   console.log(`Example app listening on port ${process.env.PORT || 3000}!`);
+// });

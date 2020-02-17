@@ -113,7 +113,7 @@ const wakeUp = (url, interval = 1, callback) => {
             }
             finally {
                 // do it all again
-                return wakeUpDyno(url, interval, callback);
+                wakeUp(url, interval, callback);
             }
 
         }
@@ -123,5 +123,5 @@ const wakeUp = (url, interval = 1, callback) => {
 
 exports.wakeUpDyno = (url, interval, callback) => {
     wakeUp(url, interval, callback);
-}
+};
 

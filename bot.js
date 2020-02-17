@@ -6,7 +6,7 @@ const express = require("express");
 const path = require("path");
 const I18n = require("telegraf-i18n/lib/i18n");
 const {getUser} = require("./user/userController");
-const utils = require("./utils");
+const utils = require("./utils.js");
 
 // Configs
 dotenv.config();
